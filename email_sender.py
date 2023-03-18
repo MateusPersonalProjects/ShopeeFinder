@@ -1,7 +1,9 @@
 import smtplib
+import time
 
-my_email = "emailsteste40@gmail.com"
-password = "uapfuuwseojrrepm"
+
+my_email = "your email"
+password = "your password"
 
 
 def send_email(data):
@@ -16,3 +18,5 @@ def send_email(data):
                 to_addrs="amateussteam@gmail.com",
                 msg=f"Subject: Shopee Item Alert!!! \n\n{message}"
             )
+        time.sleep(5)
+        
