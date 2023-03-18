@@ -2,8 +2,8 @@ import smtplib
 import time
 
 
-my_email = "your email"
-password = "your password"
+my_email = "emailsteste40@gmail.com"
+password = "uapfuuwseojrrepm"
 
 
 def send_email(data):
