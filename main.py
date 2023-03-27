@@ -33,8 +33,6 @@ if interfaces[0] == "update":
             data_manager.write_data(user_input[num], all_data)
 
 
-# TODO: Melhorar a interface e experiência do usuário
-
 
 
 
